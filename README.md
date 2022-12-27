@@ -1,6 +1,6 @@
 # sql-challenge
 ## Module 9 Challenge
-For this project I analyzed a company's employee data CSV files from the 1980s and 1990s. To do this I designed tables to hold the data from the CSV files, imported the CSV files into a SQL database, and then answered the company's questions about the data. 
+For this project I analyzed a company's employee data CSV files from the 1980s and 1990s, which can be found [here](Resources). To do this I designed tables to hold the data from the CSV files, imported the CSV files into a SQL database, and then answered the company's questions about the data. 
 
 ## Data Modeling
 To model the data used for this project I made an Entity Relationship Diagram of the tables using QuickDBD. Below is an image showing the relationships between the tables used for this project.
