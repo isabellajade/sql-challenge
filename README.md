@@ -3,12 +3,12 @@
 For this project I analyzed a company's employee data CSV files from the 1980s and 1990s, which can be found [here](Resources). To do this I designed tables to hold the data from the CSV files, imported the CSV files into a SQL database, and then answered the company's questions about the data. 
 
 ## Data Modeling
-To model the data used for this project I made an Entity Relationship Diagram of the tables using QuickDBD. Below is an image showing the relationships between the tables used for this project.
+To model the data used for this project I made an Entity Relationship Diagram of the tables using QuickDBD. Below is an image showing the relationships between each of the tables used for this project.
 
 ![ERD](Images/ERD.png)
 
 ## Data Engineering
-The tabel schema for each of the six CSV files were created using SQL. Data types, primary keys, foreign keys, composite keys, and other constraints were included in the table schemata. Each of the tables were created in a deliberate order to be able to handle the foreign keys. The CSV files were then imported into their corresponding tables. You can view the code used to create the tables [here](EmployeeSQL/table_schemata.sql).
+The tabel schema for each of the six CSV files were created using SQL. Data types, primary keys, foreign keys, composite keys, and other constraints were included in the table's schemata. Each of the tables were created in a deliberate order to be able to handle the foreign keys. The CSV files were then imported into their corresponding tables. You can view the code used to create the tables [here](EmployeeSQL/table_schemata.sql).
 
 ## Data Analysis
 Each of the questions below were asked and answered using the SQL queries that can be found [here](EmployeeSQL/queries.sql).
