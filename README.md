@@ -8,10 +8,10 @@ To model the data used for this project I made an Entity Relationship Diagram of
 ![ERD](Images/ERD.png)
 
 ## Data Engineering
-The tabel schema for each of the six CSV files were created using SQL. Data types, primary keys, foreign keys, composite keys, and other constraints were included in the table schemata. Each of the tables were created in the correct order to be able to handle the foreign keys. The CSV files were then imported into their corresponding tables. You can view the code used to create the tables [here](EmployeeSQL/table_schemata.sql).
+The tabel schema for each of the six CSV files were created using SQL. Data types, primary keys, foreign keys, composite keys, and other constraints were included in the table schemata. Each of the tables were created in a deliberate order to be able to handle the foreign keys. The CSV files were then imported into their corresponding tables. You can view the code used to create the tables [here](EmployeeSQL/table_schemata.sql).
 
 ## Data Analysis
-The following questions were asked and answered using the SQL queries you can find [here](EmployeeSQL/queries.sql).
+Each of the questions below were asked and answered using the SQL queries that can be found [here](EmployeeSQL/queries.sql).
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 
